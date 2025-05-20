@@ -16,12 +16,12 @@
 <body class="bg-white text-gray-800">
 
   <!-- Header -->
-  <header class="relative bg-black text-white py-4 px-6">
+  <header class="sticky top-0 z-50 bg-black text-white py-4 px-6">
     <div class="w-full flex items-center justify-between relative">
 
       <!-- Logo -->
       <div class="flex items-center space-x-3">
-        <img src="/assets/logo.png" alt="Logo da JC Integra Soluções" class="w-10 h-10 rounded-md object-cover">
+        <img src="assets/template/logo.png" alt="Logo da JC Integra Soluções" class="w-15 h-10 rounded-md object-cover">
         <h1 class="text-xl font-bold">JC Integra Soluções</h1>
       </div>
 
@@ -29,19 +29,19 @@
       <nav class="absolute left-1/2 transform -translate-x-1/2 space-x-6">
         <a href="#sobre" class="hover:text-orange-600 hover:underline">Sobre</a>
         <a href="#servicos" class="hover:text-orange-600 hover:underline">Serviços</a>
-        <a href="#produtos" class="hover:text-orange-600 hover:underline">Produtos</a>
-        <a href="#contato" class="hover:text-orange-600 hover:underline">Contato</a>
+        <a href="#produtos" class="hover:text-orange-600 hover:underline">Produtos Digitais</a>
+		<a href="" class="hover:text-orange-600 hover:underline">Portifólio</a>
       </nav>
 
       <!-- Botão de contato -->
       <div>
-        <a href="#contato" class="bg-orange-500 hover:bg-orange-700 text-white px-4 py-2 rounded-md font-bold shadow">Contato</a>
+        <a href="https://wa.me/seunumero" target="_blank" class="bg-orange-500 hover:bg-orange-700 text-white px-4 py-2 rounded-md font-bold shadow">Contato</a>
       </div>
     </div>
   </header>
 
   <!-- Hero / Destaque -->
-  <section class="bg-white py-20 px-6 text-center">
+  <section class="bg-white py-20 px-6 pt-20 text-center">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
 
       <div class="md:w-1/2 text-center md:text-left">
@@ -68,27 +68,40 @@
   <!-- Sobre Nós -->
   <section id="sobre" class="py-12 px-6 bg-gray-100">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-4">Sobre nós</h2>
-      <p class="text-gray-700">A JC Integra Soluções tem como objetivo principal unir criatividade e eficiência para suprir as necessidades do seu negócio ou produto.</p>
+      <h2 class="text-2xl font-bold mb-4">Sobre</h2>
+      <p class="text-gray-700"><b>A JC Integra Soluções</b> tem como objetivo principal unir criatividade e eficiência para suprir as necessidades do seu negócio ou produto.</p>
     </div>
   </section>
 
   <!-- Meus Serviços -->
-  <section id="servicos" class="py-12 px-6">
-    <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-2xl font-bold mb-8">Meus Serviços</h2>
+  <section id="servicos" class="py-16 bg-orange-500">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl text-white font-bold text-center mb-10">Meus Serviços</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div>
-          <h3 class="font-semibold text-lg mb-2">Criação de Sites</h3>
-          <p class="text-gray-600">Sites modernos, responsivos e com performance otimizada.</p>
+	  
+	  <!-- Card 1 -->
+	   <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+	   <img src="assets/template/serv1.png" alt="Serviço 1" class="mx-auto mb-4 w-20 h-20 object-contain">
+          <h3 class="text-lg font-semibold mb-2">Identidade Visual</h3>
+          <p class="text-gray-600 mb-4">Criação de logotipo, paleta de cores, fontes e elementos gráficos únicos para a sua marca.</p>
+		  <a href="" class="inline-block px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"> Solicitar </a>
         </div>
-        <div>
-          <h3 class="font-semibold text-lg mb-2">Personalização de Templates</h3>
-          <p class="text-gray-600">Adapto templates às necessidades do seu negócio ou marca.</p>
+		
+		<!-- Card 2 -->
+	   <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+	   <img src="assets/template/serv2.png" alt="Serviço 2" class="mx-auto mb-4 w-20 h-20 object-contain">
+          <h3 class="text-lg font-semibold mb-2">Sites & Web</h3>
+          <p class="text-gray-600 mb-4">Criação de sites, templates criativos.</p>
+		  <a href="" class="inline-block px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"> Solicitar </a>
+		  <a href="" class="inline-block px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"> Meu Portfólio </a>
         </div>
-        <div>
-          <h3 class="font-semibold text-lg mb-2">Suporte e Manutenção</h3>
-          <p class="text-gray-600">Atualizações, correções e suporte técnico contínuo.</p>
+		
+		<!-- Card 3 -->
+	   <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+	   <img src="assets/template/serv3.png" alt="Serviço 3" class="mx-auto mb-4 w-20 h-20 object-contain">
+          <h3 class="text-lg font-semibold mb-2">Suporte Técnico Remoto</h3>
+          <p class="text-gray-600 mb-4">Atualizações, correções e suporte técnico contínuo.</p>
+		  <a href="" class="inline-block px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"> Entrar em Contato </a>
         </div>
       </div>
     </div>
@@ -142,14 +155,14 @@
     </div>
   </section>
 
-  <!-- Contato -->
+  <!-- Contato 
   <section id="contato" class="py-12 px-6">
     <div class="max-w-xl mx-auto text-center">
       <h2 class="text-2xl font-bold mb-6">Entre em Contato</h2>
       <p class="mb-4">Use o formulário abaixo ou envie uma mensagem direta no WhatsApp.</p>
       <a href="https://wa.me/seunumero" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Fale comigo no WhatsApp</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Rodapé -->
   <footer class="bg-gray-800 text-white text-center py-6">
@@ -174,7 +187,7 @@
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
+      }
     });
   </script>
 
